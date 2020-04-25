@@ -1,0 +1,17 @@
+{
+  "name": "version-tag",
+  "version": "1.0.0",
+  "description": "Add version tag to your package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "version",
+    "tag",
+    "version",
+    "tag"
+  ],
+  "author": "trieudh58",
+  "license": "ISC"
+}
