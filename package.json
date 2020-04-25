@@ -1,17 +1,24 @@
 {
-  "name": "version-tag",
+  "name": "@trieudh58/version-tag",
   "version": "1.0.0",
   "description": "Add version tag to your package.json",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node bin/cli.js",
+    "tag": "version-tag"
+  },
+  "bin": {
+    "version-tag": "./bin/cli.js"
   },
   "keywords": [
     "version",
     "tag",
-    "version",
-    "tag"
+    "version-tag"
   ],
   "author": "trieudh58",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "json": "^9.0.6",
+    "yargs": "^15.3.1"
+  }
 }
