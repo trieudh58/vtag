@@ -8,7 +8,7 @@
     "tag": "vtag"
   },
   "bin": {
-    "vtag": "./bin/cli.js"
+    "vtag": "bin/cli.js"
   },
   "keywords": [
     "version",
@@ -20,5 +20,14 @@
   "dependencies": {
     "json": "^9.0.6",
     "yargs": "^15.3.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trieudh58/vtag.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trieudh58/vtag/issues"
+  },
+  "homepage": "https://github.com/trieudh58/vtag#readme"
 }
