@@ -1,6 +1,6 @@
 {
   "name": "@trieudh58/vtag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add version tag to your package.json",
   "main": "index.js",
   "scripts": {
