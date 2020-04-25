@@ -1,14 +1,14 @@
 {
-  "name": "@trieudh58/version-tag",
+  "name": "@trieudh58/vtag",
   "version": "1.0.0",
   "description": "Add version tag to your package.json",
   "main": "index.js",
   "scripts": {
     "test": "node bin/cli.js",
-    "tag": "version-tag"
+    "tag": "vtag"
   },
   "bin": {
-    "version-tag": "./bin/cli.js"
+    "vtag": "./bin/cli.js"
   },
   "keywords": [
     "version",
