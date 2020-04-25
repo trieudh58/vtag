@@ -4,13 +4,21 @@ const yargs = require('yargs')
 const { updatePackageJson } = require('./json')
 const { generateTimeBasedShortSHA, getGitShortSHA } = require('./sha')
 
-const argv = yargs.option('tagger', {
-  alias: 't',
-  type: 'string',
-  default: 'default',
-  choices: ['git', 'default'],
-  description: 'Choose a tagger',
-}).argv
+const argv = yargs
+  .option('tagger', {
+    alias: 't',
+    type: 'string',
+    default: 'default',
+    choices: ['git', 'default'],
+    description: 'Choose a tagger',
+  })
+  .option('help', {
+    alias: 'h',
+  })
+  .option('version', {
+    alias: 'v',
+  })
+  .argv
 
 main()
 
